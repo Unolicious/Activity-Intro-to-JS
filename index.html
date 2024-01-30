@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Information List</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+    <script>
+        alert("Welcome to User/Student!");
+</script>
+
+<h2>Student Information List</h2>
+
+<table id="table1">
+    <caption>Table 1: Basic Information</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Renan Bisle</td>
+            <td>21</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td>Uno</td>
+            <td>20</td>
+            <td>1.5</td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <td>Uno Ok</td>
+            <td>22</td>
+            <td>5.0</td>
+        </tr>
+    </thead>
+2.
+</table>
+<button onclick="printStudentInfo()">Print Student Information</button>
+
+<script>
+function printStudentInfo() {
+    window.print();
+}
+</script>
+
+</body>
+</html>
